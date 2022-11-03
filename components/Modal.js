@@ -57,23 +57,6 @@ const OVERLAY_STYLE = {
     zIndex: 1000
 }
  
- 
-// function authentication() {
- 
-// createUserWithEmailAndPassword(auth, email, password)
-//   .then((userCredential) => {
-//     // Signed in
-//     const user = userCredential.user;
-//     // ...
-//   })
-//   .catch((error) => {
-//     const errorCode = error.code;
-//     const errorMessage = error.message;
-//     // ..
-//   });
- 
-// }
- 
   export default function NestedModal() {
     const [open, setOpen] = React.useState(false);
     const {auth,  isloggedin, setloggedin} = useContext(Firebaseauth);
